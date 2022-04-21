@@ -1,1 +1,4 @@
-"use strict";require("path");require("fs");require("./t.js");
+"use strict";
+require("path");
+require("fs");
+require("./1.js");

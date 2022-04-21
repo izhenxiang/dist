@@ -1,1 +1,36 @@
-"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});var t=require("path"),i=require("fs"),f=require("./q.js");require("electron");var a,u;a=t.join(f.ROOT,"conf");u=n=>{var r;return r=t.join(a,n),i.mkdirSync(t.dirname(r),{recursive:!0}),r};var s=new Proxy({},{set:function(n,r,e){return i.writeFileSync(u(r),JSON.stringify(e)),e},get:(n,r)=>{var e;if(e=u(r),i.existsSync(e))return JSON.parse(i.readFileSync(e))}});exports.default=s;
+var n = typeof globalThis < "u"
+	? globalThis
+	: typeof window < "u"
+		? window
+		: typeof global < "u"
+			? global
+			: typeof self < "u"
+				? self
+				: {};
+function a(e) {
+	return e && e.__esModule && Object.prototype.hasOwnProperty.call(e, "default") ? e.default : e;
+}
+function u(e) {
+	if (e.__esModule) {
+		return e;
+	}
+	var o = Object.defineProperty({}, "__esModule", { value: !0 });
+	return (
+		Object
+			.keys(e)
+			.forEach(function (t) {
+				var r = Object.getOwnPropertyDescriptor(e, t);
+				Object.defineProperty(
+					o,
+					t,
+					r.get ? r : {
+						enumerable: !0,
+						get: function () {
+							return e[t];
+						},
+					},
+				);
+			}), o
+	);
+}
+export { u as a, n as c, a as g };

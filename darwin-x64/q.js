@@ -1,1 +1,8 @@
-"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});var r=require("electron"),t=require("path"),e="izhenxiang",a=process.env[e+"_root"]||t.join(r.app.getPath("userData"),e);exports.ROOT=a;
+import { a as e, d as _, _ as t } from "./c.js";
+var a = { components: {}, setup: () => {} };
+const r = { class: "x" };
+function c(o, s) {
+	return (_(), e("a", r));
+}
+var p = t(a, [["render", c], ["__scopeId", "data-v-49b010e9"]]);
+export { p as x };

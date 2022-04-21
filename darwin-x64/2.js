@@ -1,1 +1,38 @@
-import f from"./.js";import{c as e}from"./j.js";import{a as l}from"./k.js";import{v as w}from"./0.js";import{i as k}from"./1.js";import{k as u,H as S}from"./8.js";import"./..js";import"./h.js";import"./b.js";import"./7.js";import"./-.js";import"./e.js";function g(){return new Worker("/s.js",{type:"module"})}var i,c,t,o,s,d,n,p,r;({camera:t}=k);d=await w();r=d.getVideoTracks()[0];e.area-1===0&&(p=new MediaStreamTrackProcessor({track:r,maxBufferSize:15}),r=new MediaStreamTrackGenerator({kind:"video"}),o=[p.readable,r.writable],s=()=>{new g().postMessage([localStorage.ppi-0,...o,...JSON.parse(localStorage.area)],o)});r.contentHint="detail";i=await l();c=i?i.getTracks():[];n=new MediaStream([r,...c]);u(()=>{var a,m;a=!!e.audio;for(m of c)m.enabled=a});S(()=>e.video,async()=>{var a;({video:a}=e),a?await t.circle(localStorage.\u4EBA\u50CF\u5C3A\u5BF8-0):await t.x()});f(n,s);
+import { i as s } from "./3.js";
+var m = (e, a) => {
+	var r;
+	return (
+		r = 9437184 / (e * a), r < 1 && (e = parseInt(e * r), a = parseInt(a * r)), [
+			e,
+			a,
+		]
+	);
+},
+	c;
+({ recbar: c } = s);
+var p = async () => {
+	var e, a, r, i, o, t, d;
+	({ width: d, height: r } = screen), [t, a] = m(d * 2, r * 2), localStorage.ppi =
+		t / d, o =
+		{
+			audio: { mandatory: { chromeMediaSource: "desktop" } },
+			video: {
+				mandatory: {
+					maxFrameRate: 30,
+					minWidth: t,
+					minHeight: a,
+					maxWidth: t,
+					maxHeight: a,
+					chromeMediaSourceId: await c.screen_source(),
+					chromeMediaSource: "desktop",
+				},
+			},
+		}, e = () => navigator.mediaDevices.getUserMedia(o);
+	try {
+		i = await e();
+	} catch {
+		delete o.audio, i = await e();
+	}
+	return i;
+};
+export { p as v };
