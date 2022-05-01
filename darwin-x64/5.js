@@ -1,1 +1,1 @@
-import{m as d,c as f}from"./h.js";var a,s=a=async function(e){var o,i,r,t;if(o=localStorage[e],o&&(i=await d[e](o),i)){if(t=i.getTracks(),!f[e])for(r of t)r.enabled=!1;return i}},c=a.bind(a,"audio");a.bind(a,"video");export{c as a,s as m};
+var t=(s,e)=>{var r,n;for(r in e)n=e[r],s.addEventListener(r,n);return()=>{var v;v=[];for(r in e)n=e[r],v.push(s.removeEventListener(r,n));return v}};export{t as _};
