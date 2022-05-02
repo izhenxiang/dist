@@ -1,1 +1,1 @@
-import{m as d,c as f}from"./a.js";var a,s=a=async function(e){var o,i,r,t;if(o=localStorage[e],o&&(i=await d[e](o),i)){if(t=i.getTracks(),!f[e])for(r of t)r.enabled=!1;return i}},c=a.bind(a,"audio");a.bind(a,"video");export{c as a,s as m};
+import{c as r}from"./..js";import{c as e,b as n,d as c,_ as t}from"./g.js";import"./4.js";import"./s.js";var m={components:{confirm:r},setup:()=>{}};function s(a,p){const o=n("confirm");return c(),e(o,{h1:"确认重新开始录制吗？",no:"继续录制",tip:"已录制部分将被清除",yes:"重新录制"})}var l=t(m,[["render",s]]);export{l as default};
