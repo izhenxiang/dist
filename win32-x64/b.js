@@ -1,1 +1,1 @@
-import{c as r}from"./g.js";import{c,b as e,d as n,_ as t}from"./c.js";import"./3.js";import"./k.js";var m={components:{confirm:r},setup:()=>{}};function a(s,p){const o=e("confirm");return n(),c(o,{h1:"确认取消本次录制吗？",no:"继续录制",tip:"已录制部分将被清除",yes:"取消录制"})}var d=t(m,[["render",a]]);export{d as default};
+import{a as e,d as _,_ as t}from"./f.js";var a={components:{},setup:()=>{}};const r={class:"x"};function c(o,s){return _(),e("a",r)}var p=t(a,[["render",c],["__scopeId","data-v-49b010e9"]]);export{p as x};
