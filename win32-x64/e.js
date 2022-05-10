@@ -1,1 +1,1 @@
-import{m as d,c as f}from"./a.js";var a,s=a=async function(e){var o,i,r,t;if(o=localStorage[e],o&&(i=await d[e](o),i)){if(t=i.getTracks(),!f[e])for(r of t)r.enabled=!1;return i}},c=a.bind(a,"audio");a.bind(a,"video");export{c as a,s as m};
+import{_ as a}from"./_.js";import{u as m}from"./g.js";var e=(r,n)=>{var o;return o=a(r,n),m(o),o};export{e as $};
