@@ -1,1 +1,1 @@
-import{_ as a}from"./_.js";import{u as m}from"./g.js";var e=(r,n)=>{var o;return o=a(r,n),m(o),o};export{e as $};
+import{a as e,d as _,_ as t}from"./a.js";var a={components:{},setup:()=>{}};const r={class:"x"};function c(o,s){return _(),e("a",r)}var p=t(a,[["render",c],["__scopeId","data-v-49b010e9"]]);export{p as x};
