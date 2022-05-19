@@ -1,1 +1,1 @@
-var i=n=>{var r;return r=e=>new Proxy(()=>{},{apply:(a,t,p)=>n(e.join("."),p),get:(a,t)=>r([...e,t])}),r([])},o=i(E.invoke);export{o as i};
+var t=(s,e)=>{var r,n;for(r in e)n=e[r],s.addEventListener(r,n);return()=>{var v;v=[];for(r in e)n=e[r],v.push(s.removeEventListener(r,n));return v}};export{t as _};
