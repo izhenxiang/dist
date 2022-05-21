@@ -1,1 +1,1 @@
-var t=(s,e)=>{var r,n;for(r in e)n=e[r],s.addEventListener(r,n);return()=>{var v;v=[];for(r in e)n=e[r],v.push(s.removeEventListener(r,n));return v}};export{t as _};
+import{_ as a}from"./9.js";import{u as m}from"./e.js";var e=(r,n)=>{var o;return o=a(r,n),m(o),o};export{e as $};
