@@ -1,1 +1,1 @@
-var s=new BroadcastChannel("rec"),v=[],c=(r=!1)=>{var a;return a={},s.addEventListener("message",async({data:n})=>{var e;e=n[0],await(typeof a[e]=="function"?a[e](...n.slice(1)):void 0)}),r&&v.push(a),a},o=c();export{c as N,o as O,s as c,v as h};
+import{c as r}from"./$.js";import{c as e,b as n,d as c,_ as t}from"./_.js";import"./2.js";import"./s.js";var _={components:{confirm:r},setup:()=>{}};function a(p,s){const o=n("confirm");return c(),e(o,{h1:'<p class="tip">本次录制已达到上限，您可以继续录制一个新视频，<br>或者立即扩容获得更长录制时间</p>',no:"取消",yes:"确定"})}var u=t(_,[["render",a]]);export{u as default};

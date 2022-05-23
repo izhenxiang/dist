@@ -1,1 +1,1 @@
-var i=n=>{var r;return r=e=>new Proxy(()=>{},{apply:(a,t,p)=>n(e.join("."),p),get:(a,t)=>r([...e,t])}),r([])},o=i(E.invoke);export{o as i};
+import{c as r}from"./u.js";import{c as e,b as n,d as c,_ as t}from"./i.js";import"./4.js";import"./x.js";var _={components:{confirm:r},setup:()=>{}};function a(p,s){const o=n("confirm");return c(),e(o,{h1:'<p class="tip">本次录制已达到上限，您可以继续录制一个新视频，<br>或者立即扩容获得更长录制时间</p>',no:"取消",yes:"确定"})}var u=t(_,[["render",a]]);export{u as default};
