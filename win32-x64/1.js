@@ -1,1 +1,1 @@
-import{i as s}from"./4.js";import{c as t}from"./e.js";var o,i;({rec:i}=s);o="src,audio,video,area".split(",");var f=()=>{var a;i(...function(){var r;r=[];for(a of o)r.push(t[a]);return r}())};export{f as s};
+import{a as e,d as _,_ as t}from"./c.js";var a={components:{},setup:()=>{}};const r={class:"x"};function c(o,s){return _(),e("a",r)}var p=t(a,[["render",c],["__scopeId","data-v-49b010e9"]]);export{p as x};
