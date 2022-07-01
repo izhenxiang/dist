@@ -1,1 +1,1 @@
-import{i as s}from"./3.js";import{c as t}from"./$1.js";var o,i;({rec:i}=s);o="src,audio,video,area".split(",");var f=()=>{var a;i(...function(){var r;r=[];for(a of o)r.push(t[a]);return r}())};export{f as s};
+var s=new BroadcastChannel("rec"),v=[],c=(r=!1)=>{var a;return a={},s.addEventListener("message",async({data:n})=>{var e;e=n[0],await(typeof a[e]=="function"?a[e](...n.slice(1)):void 0)}),r&&v.push(a),a},o=c();export{c as N,o as O,s as c,v as h};
