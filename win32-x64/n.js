@@ -1,1 +1,1 @@
-var a="https://izx.dalukuankuan.com/";export{a as H};
+import{s as r}from"./l.js";var o=r.record({src:"all",area:0});export{o as c};

@@ -1,1 +1,1 @@
-var t=new Proxy({},{get:(i,a)=>r=>{var e;return e={},e[a]={deviceId:{exact:r}},navigator.mediaDevices.getUserMedia(e)}}),d="win32";export{t as m,d as p};
+(function(){"use strict";self.onmessage=({data:[e,a,i,s,t,n,o]})=>{n*=e,o*=e,s*=e,t*=e,a.pipeThrough(new TransformStream({transform:(r,h)=>{h.enqueue(new VideoFrame(r,{visibleRect:{x:s,width:n,y:t,height:o}})),r.close()}})).pipeTo(i)}})();

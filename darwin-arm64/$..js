@@ -1,1 +1,1 @@
-import{s as r}from"./i.js";var o=r.record({src:"all",area:0});export{o as c};
+"use strict";var r=require("electron");(async()=>(await Promise.all([r.app.whenReady()]),await Promise.resolve().then(function(){return require("./1.js")}).then(function(e){return e.boot})))();
