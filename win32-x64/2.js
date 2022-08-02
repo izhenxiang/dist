@@ -1,1 +1,1 @@
-import{s as r}from"./l.js";var s=r.draw({shape:"pen",drawing:0});export{s as D};
+var i=n=>{var r;return r=e=>new Proxy(()=>{},{apply:(a,t,p)=>n(e.join("."),p),get:(a,t)=>r([...e,t])}),r([])},o=i(E.invoke);export{o as i};
