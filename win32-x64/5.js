@@ -1,1 +1,1 @@
-var t=(s,e)=>{var r,n;for(r in e)n=e[r],s.addEventListener(r,n);return()=>{var v;v=[];for(r in e)n=e[r],v.push(s.removeEventListener(r,n));return v}};export{t as _};
+import{a as e,d as _,_ as r}from"./g.js";var a={components:{},setup:()=>{}};const t={class:"x"};function o(c,s){return _(),e("a",t)}var d=r(a,[["render",o],["__scopeId","data-v-49b010e9"]]);export{d as x};
