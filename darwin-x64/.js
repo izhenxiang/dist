@@ -1,1 +1,1 @@
-import{s as r}from"./x.js";var s=r.draw({shape:"pen",drawing:0});export{s as D};
+import{a as e,d as _,_ as r}from"./b.js";var a={components:{},setup:()=>{}};const t={class:"x"};function o(c,s){return _(),e("a",t)}var d=r(a,[["render",o],["__scopeId","data-v-49b010e9"]]);export{d as x};

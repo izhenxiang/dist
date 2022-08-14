@@ -1,1 +1,1 @@
-(function(){"use strict";self.onmessage=({data:[e,a,i,s,t,n,o]})=>{n*=e,o*=e,s*=e,t*=e,a.pipeThrough(new TransformStream({transform:(r,h)=>{h.enqueue(new VideoFrame(r,{visibleRect:{x:s,width:n,y:t,height:o}})),r.close()}})).pipeTo(i)}})();
+var a="https://izx.dalukuankuan.com/";export{a as H};
