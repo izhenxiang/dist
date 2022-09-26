@@ -1,1 +1,1 @@
-import{i as s}from"./1.js";import{c as t}from"./u.js";var o,i;({rec:i}=s);o="src,audio,video,area".split(",");var f=()=>{var a;i(...function(){var r;r=[];for(a of o)r.push(t[a]);return r}())};export{f as s};
+var t=new Proxy({},{get:(i,a)=>r=>{var e;return e={},a!=="audio"?e[a]={deviceId:{exact:r}}:e={audio:{deviceId:{exact:r},echoCancellation:!0,noiseSuppression:!0,autoGainControl:!0}},navigator.mediaDevices.getUserMedia(e)}}),o="darwin";export{t as m,o as p};
