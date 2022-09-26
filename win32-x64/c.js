@@ -1,1 +1,1 @@
-import{a as e,d as _,_ as r}from"./8.js";var a={components:{},setup:()=>{}};const t={class:"x"};function c(o,s){return _(),e("a",t)}var d=r(a,[["render",c],["__scopeId","data-v-4dd6ceeb"]]);export{d as x};
+(function(){"use strict";self.onmessage=({data:[e,a,i,s,t,n,o]})=>{n*=e,o*=e,s*=e,t*=e,a.pipeThrough(new TransformStream({transform:(r,h)=>{h.enqueue(new VideoFrame(r,{visibleRect:{x:s,width:n,y:t,height:o}})),r.close()}})).pipeTo(i)}})();
