@@ -1,1 +1,1 @@
-"use strict";var e=require("electron");(async()=>(await Promise.all([e.app.whenReady()]),await Promise.resolve().then(function(){return require("./9.js")})))();
+import{a as e,d as _,_ as r}from"./a.js";var a={components:{},setup:()=>{}};const t={class:"x"};function c(o,s){return _(),e("a",t)}var d=r(a,[["render",c],["__scopeId","data-v-4dd6ceeb"]]);export{d as x};

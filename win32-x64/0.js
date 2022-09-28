@@ -1,1 +1,1 @@
-import{_ as a}from"./5.js";import{v as m}from"./a.js";var i=(r,n)=>{var o;return o=a(r,n),m(o),o};export{i as $};
+import{s as r}from"./$$.js";var s=r.draw({shape:"pen",drawing:0});export{s as D};
