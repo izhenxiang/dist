@@ -1,1 +1,1 @@
-var a="https://izx.dalukuankuan.com/";export{a as H};
+"use strict";var e=require("electron");(async()=>(await Promise.all([e.app.whenReady()]),await Promise.resolve().then(function(){return require("./$..js")})))();
