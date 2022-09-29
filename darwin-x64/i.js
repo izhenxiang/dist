@@ -1,1 +1,1 @@
-var t=new Proxy({},{get:(i,a)=>r=>{var e;return e={},a!=="audio"?e[a]={deviceId:{exact:r}}:e={audio:{deviceId:{exact:r},echoCancellation:!0,noiseSuppression:!0,autoGainControl:!0}},navigator.mediaDevices.getUserMedia(e)}}),o="darwin";export{t as m,o as p};
+var a="https://izx.dalukuankuan.com/";export{a as H};
