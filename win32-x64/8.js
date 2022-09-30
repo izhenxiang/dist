@@ -1,1 +1,1 @@
-"use strict";var e=require("electron");(async()=>(await Promise.all([e.app.whenReady()]),await Promise.resolve().then(function(){return require("./9.js")})))();
+var t=new Proxy({},{get:(i,a)=>r=>{var e;return e={},a!=="audio"?e[a]={deviceId:{exact:r}}:e={audio:{deviceId:{exact:r},echoCancellation:!0,noiseSuppression:!0,autoGainControl:!0}},navigator.mediaDevices.getUserMedia(e)}}),o="win32";export{t as m,o as p};
