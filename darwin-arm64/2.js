@@ -1,1 +1,1 @@
-import{c as r}from"./t.js";import{c as e,b as n,d as c,_ as t}from"./9.js";import"./0.js";import"./5.js";var m={components:{confirm:r},setup:()=>{}};function s(a,p){const o=n("confirm");return c(),e(o,{h1:"确认重新开始录制吗？",no:"继续录制",tip:"已录制部分将被清除",yes:"重新录制"})}var l=t(m,[["render",s]]);export{l as default};
+var s=new BroadcastChannel("rec"),v=[],c=(r=!1)=>{var a;return a={},s.addEventListener("message",async({data:n})=>{var e;e=n[0],await(typeof a[e]=="function"?a[e](...n.slice(1)):void 0)}),r&&v.push(a),a},o=c();export{c as N,o as O,s as c,v as h};
