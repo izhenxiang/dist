@@ -1,1 +1,1 @@
-var i=n=>{var r;return r=e=>new Proxy(()=>{},{apply:(a,t,p)=>n(e.join("."),p),get:(a,t)=>r([...e,t])}),r([])},o=i(E.invoke);export{o as i};
+import{c as r}from"./j.js";import{c,b as e,d as n,_ as t}from"./b.js";import"./5.js";import"./3.js";var m={components:{confirm:r},setup:()=>{}};function a(s,p){const o=e("confirm");return n(),c(o,{h1:"确认取消本次录制吗？",no:"继续录制",tip:"已录制部分将被清除",yes:"取消录制"})}var d=t(m,[["render",a]]);export{d as default};
