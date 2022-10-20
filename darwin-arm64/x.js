@@ -1,1 +1,1 @@
-import{c as r}from"./.js";import{c,b as e,d as n,_ as t}from"./9.js";import"./..js";import"./c.js";var m={components:{confirm:r},setup:()=>{}};function a(s,p){const o=e("confirm");return n(),c(o,{h1:"确认取消本次录制吗？",no:"继续录制",tip:"已录制部分将被清除",yes:"取消录制"})}var d=t(m,[["render",a]]);export{d as default};
+"use strict";var r=require("electron");(async()=>(await Promise.all([r.app.whenReady()]),await Promise.resolve().then(function(){return require("./3.js")}).then(function(e){return e.boot})))();
