@@ -1,1 +1,1 @@
-import{_ as a}from"./5.js";import{v as m}from"./e.js";var i=(r,n)=>{var o;return o=a(r,n),m(o),o};export{i as $};
+var t=new Proxy({},{get:(i,a)=>r=>{var e;return e={},a!=="audio"?e[a]={deviceId:{exact:r}}:e={audio:{deviceId:{exact:r},echoCancellation:!0,noiseSuppression:!0,autoGainControl:!0}},navigator.mediaDevices.getUserMedia(e)}}),o="win32";export{t as m,o as p};
