@@ -1,1 +1,1 @@
-var t=(s,e)=>{var r,n;for(r in e)n=e[r],s.addEventListener(r,n);return()=>{var v;v=[];for(r in e)n=e[r],v.push(s.removeEventListener(r,n));return v}};export{t as _};
+import{a as t,j as r,d as n,_}from"./e.js";var a={setup:()=>{}};function o(e,s){return n(),t("button",null,[r(e.$slots,"default",{},void 0,!0)])}var u=_(a,[["render",o],["__scopeId","data-v-71ed6340"]]);export{u as b};
