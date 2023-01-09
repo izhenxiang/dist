@@ -1,1 +1,1 @@
-import{h as r,c as e}from"./0.js";var i=new Proxy(()=>{},{get:(s,o)=>(...t)=>{var f;for(f of r)typeof f[o]=="function"&&f[o](...t);t.unshift(o),e.postMessage(t)}});export{i as b};
+import{c as r}from"./.js";import{c as e,b as n,d as c,_ as t}from"./k.js";import"./6.js";import"./$1.js";var m={components:{confirm:r},setup:()=>{}};function s(a,p){const o=n("confirm");return c(),e(o,{h1:"确认重新开始录制吗？",no:"继续录制",tip:"已录制部分将被清除",yes:"重新录制"})}var l=t(m,[["render",s]]);export{l as default};
