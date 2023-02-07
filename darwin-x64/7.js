@@ -1,1 +1,1 @@
-import{a as e,d as _,_ as r}from"./h.js";var a={components:{},setup:()=>{}};const t={class:"x"};function c(o,s){return _(),e("a",t)}var d=r(a,[["render",c],["__scopeId","data-v-4dd6ceeb"]]);export{d as x};
+var t=(s,e)=>{var r,n;for(r in e)n=e[r],s.addEventListener(r,n);return()=>{var v;v=[];for(r in e)n=e[r],v.push(s.removeEventListener(r,n));return v}};export{t as _};
