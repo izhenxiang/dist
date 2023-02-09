@@ -1,1 +1,1 @@
-import{s as r}from"./u.js";var s=r.draw({shape:"pen",drawing:0});export{s as D};
+import{_ as a}from"./a.js";import{v as m}from"./j.js";var i=(r,n)=>{var o;return o=a(r,n),m(o),o};export{i as $};
