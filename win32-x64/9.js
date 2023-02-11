@@ -1,1 +1,1 @@
-import{s as r}from"./w.js";var o=r.record({src:"all",area:0});export{o as c};
+"use strict";var r=typeof globalThis!="undefined"?globalThis:typeof window!="undefined"?window:typeof global!="undefined"?global:typeof self!="undefined"?self:{};function u(e){if(e.__esModule)return e;var o=Object.defineProperty({},"__esModule",{value:!0});return Object.keys(e).forEach(function(t){var n=Object.getOwnPropertyDescriptor(e,t);Object.defineProperty(o,t,n.get?n:{enumerable:!0,get:function(){return e[t]}})}),o}exports.commonjsGlobal=r;exports.getAugmentedNamespace=u;
